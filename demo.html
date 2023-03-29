@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Switching between Forms</title>
+	<style>
+		.button-group button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.button-group button.selected {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.button-group button:not(.selected):hover {
+  background-color: #eee;
+}
+
+	</style>
+</head>
+<body>
+	<div class="button-group">
+		<button class="selected">Button 1</button>
+		<button>Button 2</button>
+		<button>Button 3</button>
+	  </div>
+</body>
+</html>

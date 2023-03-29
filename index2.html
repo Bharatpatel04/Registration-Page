@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Upload</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file" id="file-label">
+          <i class="icon fas fa-cloud-upload-alt"></i>
+          <span class="text">Drag and drop files here or <span style="color: lightskyblue;">browse </span></span>
+        </label>
+        <input type="file" name="file" id="file" multiple>
+        <button type="submit">Upload</button>
+      </form>
+      
+      <script src="scrpit.js"></script>
+      
+</body>
+</html>

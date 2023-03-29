@@ -1,0 +1,159 @@
+* { margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+      outline: none;
+
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/hand-writing-paper-with-pen_1232-1344.jpg?size=626&ext=jpg);
+     background-position: center; 
+   background-size: cover; 
+	font-family: sans-serif; 
+
+}
+
+.container {
+position:  relative;
+top: 40px;
+background-color:rgb(0,0,0,0.6);  
+height: auto;
+width: 200px;
+text-align : center;
+color: aliceblue; 
+border-radius: 5px;
+}
+
+div.col.login{
+   padding: 0px;
+   margin :0px;
+
+}
+ .bt:focus{
+   background-color: rgb(236, 239, 234);
+   color: rgba(17, 16, 16, 0.878);   
+   font-size: 20px;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px #00000049 ;
+   border-bottom: 5px solid rgba(222, 53, 53, 0.693);
+}
+
+span button{
+   
+   
+   background-color: rgba(0, 0, 0, 0.7); 
+   outline: none;
+   color: aliceblue; 
+   width: 97%;
+   border-bottom: 5px solid rgba(244, 238, 238, 0.693);
+}
+
+ 
+label{
+   color: rgba(0, 0, 0, 0.455);
+}
+.reg{
+   font-size: 30px;
+   
+}
+#f1{
+   display: block;
+}
+#f2{
+   display: none;
+}
+form button{
+   background-color: rgb(251, 2, 118);
+   border: none;
+   outline :none;
+   border-radius: 3px;
+   width: 97%;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px #00000049 ;
+}
+.form-floating{
+   position: relative;
+   padding: 2px; 
+}
+ .icon{
+   position: absolute;
+   top:20px;
+   left:22px;
+   color: black;
+   
+} 
+div.agree{
+   margin-bottom: 40px;
+   padding-bottom: 40px;
+}
+@media only screen and (max-width: 1600px) and (min-width: 760px)
+  
+{
+div.container{
+   position:  relative;
+   top: 40px;
+   background-color:rgb(0,0,0,0.6);  
+   height: auto;
+   width: 400px;
+   text-align : center;
+   color: aliceblue; 
+   border-radius: 5px;
+}
+}
+@media only screen and (max-width: 580px)
+{
+  div.container {
+      position:  relative;
+      top: 40px;
+      background-color:rgb(0,0,0,0.6);  
+      height: auto;
+      width: 85%;
+      text-align : center;
+      color: aliceblue; 
+      border-radius: 5px;
+      }
+      div.form-floating{
+         margin-bottom: 4px;
+      }
+div button.btn-2
+{
+   background-color: rgb(251, 2, 118);
+   border: none;
+   outline :none;
+   border-radius: 3px;
+   width: 25%;
+   font-size: 15px;
+   padding: 2px;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px #00000049 ;
+   position: absolute;
+   top:13px ;
+   right: 25px;
+   height: 60%;
+ 
+}
+div button.btn-2:hover{
+   background-color: rgba(251, 2, 118, 0.677);
+}
+
+}
+.btn-2
+{
+   background-color: rgb(251, 2, 118);
+   border: none;
+   outline :none;
+   border-radius: 3px;
+   width: 20%;
+   padding: 2px;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px #00000049 ;
+   position: absolute;
+   top:13px ;
+   right: 25px;
+   height: 60%;
+   
+   
+}
+.btn-2:hover{
+   background-color: rgba(251, 2, 118, 0.677);
+}
